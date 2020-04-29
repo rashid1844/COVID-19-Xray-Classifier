@@ -41,7 +41,8 @@ After training the model with 0.1 split, the accuracy result for the training is
 ## Running the code:
 1. Copy the latest dataset from the Github link and Kaggle
 2. Run the combine_datasets.ipynb to create the combined dataset
-3. Run the train.ipynb to train the model, the trained model is also available for download
+3. Run the train.ipynb to train the model.
+  - The trained model is also available for download: https://drive.google.com/open?id=1pyGZQMSn_OUxoJLErkth4Hbhy2nxLtrc
 4. Use the model to predict new cases.
 
 
