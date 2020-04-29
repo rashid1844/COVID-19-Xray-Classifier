@@ -1,5 +1,6 @@
 # COVID-19-Xray-Classifier
 
+![xray](xray.png)
 
 ## Outline:
 * Introduction:
