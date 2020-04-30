@@ -23,7 +23,7 @@ Predicting if a patient is infected with COVID-19 using an Xray scan is very use
 
 
 ## Dataset:
-The dataset is a combination of two sets, one that includes 30 thousand x-ray images which were part of a Kaggle competition (RSNA Penrumonia detection). The other set is a GitHub dataset that includes around 300 images, 155 of which were from COVID-19 infected patients. The data were combined and divided into three sections, normal cases, phenomena cases, and COVID-19 patients with there respective count 8800, 9500, and 155. Phenomena cases include all infections except COVID-19
+The dataset is a combination of two sets, one that includes 30 thousand x-ray images which were part of a Kaggle competition (RSNA Penrumonia detection). The other set is a GitHub dataset that includes around 300 images, 155 of which were from COVID-19 infected patients. The data were combined and divided into three sections, normal cases, phenomena cases, and COVID-19 patients with there respective count 8800, 9500, and 155. Phenomena cases include all infections except COVID-19.
 
 ## Data Augmentation:
 Due to the low number of images available especially for COVID-19, data augmentation was necessary. The settings were very slight to not affect the original image, with a max rotation angle of 15, a zoom of 0.1, and a brightness change of 0.2. We were able to increase the COVID-19 cases 30 times and for the remaining classes two times only to maintain a balance. We ended with  19600, 19100, 3450
